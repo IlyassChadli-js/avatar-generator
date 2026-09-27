@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #FBF483;
+    color: #442831;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+.ctrl-btn {
+  transition: transform 0.1s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ctrl-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.ctrl-btn:active {
+  transform: scale(0.9);
+}
+
+.ctrl-btn:focus-visible {
+  outline: 2px solid #442831;
+  outline-offset: 2px;
+}
+
+.canva-card {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: none;
+}
+
+.canva-card:hover {
+  box-shadow: 4px 4px 0px #442831;
+}
+
+.canva-button {
+  background: #442831;
+  color: #ffffff;
+  font-weight: 700;
+  transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+.canva-button:hover {
+  background: #25161c;
+}
+
+.canva-button:active {
+  transform: scale(0.98);
+}
+
+.canva-button:focus-visible {
+  outline: 2px solid #442831;
+  outline-offset: 2px;
+}
+
+/* Secondary outline button style for export actions */
+.canva-button-secondary {
+  background: #ffffff;
+  color: #442831;
+  border: 2px solid #442831;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.canva-button-secondary:hover {
+  background: #fbf483;
+  box-shadow: 2px 2px 0px #442831;
+  transform: translate(-1px, -1px);
+}
+
+.canva-button-secondary:active {
+  transform: translate(0px, 0px);
+  box-shadow: none;
+}
+
+.canva-button-secondary:focus-visible {
+  outline: 2px solid #442831;
+  outline-offset: 2px;
+}
+
+/* Checkered pattern for transparent swatch */
+.bg-checkered {
+  background-image: 
+    linear-gradient(45deg, #ccc 25%, transparent 25%), 
+    linear-gradient(-45deg, #ccc 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #ccc 75%), 
+    linear-gradient(-45deg, transparent 75%, #ccc 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0px;
+}
