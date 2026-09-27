@@ -1,7 +1,10 @@
 # 🎨 Avatar Generator
 
+> 🚀 **Live Demo:** [https://avatarimggenerator.netlify.app/](https://avatarimggenerator.netlify.app/)
+
 A fast, lightweight, and playful cartoon avatar generator web app. Customize unique avatars, randomize styles with fun animations, download as PNG/SVG, copy straight to your clipboard, and share exact configurations via URL — with zero sign-ups or server requirements.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://avatarimggenerator.netlify.app/)
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
 ![Vite](https://img.shields.io/badge/Vite-6.0+-646CFF?logo=vite)
