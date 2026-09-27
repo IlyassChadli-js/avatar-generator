@@ -151,6 +151,14 @@ Run `npm run build` and drag & drop the generated `dist/` directory onto [Netlif
 
 ---
 
+## 🙏 Credits & Acknowledgements
+
+- **Original Design & Artwork**: The visual identity, layout inspiration, and original SVG avatar illustrations are based on the **"Interactive Avatar Generator"** template created by **Canva Creative Studio** on [Canva](https://www.canva.com/).
+- **Re-engineered with React & TypeScript**: This open-source project modernizes the original concept into a standalone, client-side React 19 + TypeScript + Vite application with URL state sharing, PNG/SVG exports, and clipboard support.
+
+---
+
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it in your own projects!
+The code and application architecture are licensed under the [MIT License](LICENSE).
+Avatar artwork and visual design concepts belong to **Canva Creative Studio** / Canva.
